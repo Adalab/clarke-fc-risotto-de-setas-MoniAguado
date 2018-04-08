@@ -38,3 +38,53 @@
   border-right: 1px solid #549aea;
   padding-right: 10px;
 }
+
+.resume {
+  margin: 30px;
+}
+.resume__list {
+  list-style: none;
+}
+
+.resume__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.item--item {
+  justify-content: flex-start;
+  font-size: 12px;
+}
+
+.item--title {
+  color: #8a8b8c;
+}
+
+.total--number {
+  font-size: 20px;
+  color: #4d8f00;
+}
+
+.subtotal--title, .cost--title {
+  font-size: 15px;
+  color: #8a8b8c;
+}
+
+.resume__button {
+  margin-top: 20px;
+  width: 430px;
+  height: 50px;
+  background-color: #4d8f00;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
+  font-size: 25px;
+}
+
+.resume__button:hover{
+  color: black;
+  cursor: pointer;
+}
