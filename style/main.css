@@ -34,7 +34,14 @@
   margin: 5px;
 }
 
-.menu__select {
+.button__menu {
+  border: 0px;
+  background-color: white;
+  color: #549aea;
+
+}
+
+.button__select {
   border-right: 1px solid #549aea;
   padding-right: 10px;
 }
